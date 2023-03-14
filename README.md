@@ -1,6 +1,6 @@
 # ComandosGit
-<span style="color:red">Comandos Básicos do Git:</span>
 
+**Comandos Básicos do Git:
 
 `git clone [url]:` clona um repositório remoto para sua máquina local.
 
@@ -13,7 +13,7 @@
 `git pull:` baixa as alterações do repositório remoto para sua máquina local.
 
 
-Comandos para gerenciar branches:
+**Comandos para gerenciar branches:
 
 `git branch:` lista todas as branches locais.
 
@@ -24,7 +24,7 @@ Comandos para gerenciar branches:
 `git merge [nome_da_branch]:` faz o merge de uma branch com a branch atual.
 
 
-Comandos para gerenciar conflitos:
+**Comandos para gerenciar conflitos:
 
 `git status:` mostra o status dos arquivos.
 
@@ -33,7 +33,7 @@ Comandos para gerenciar conflitos:
 `git merge [nome_da_branch]:` tenta fazer o merge de uma branch, mas pode causar conflitos que precisam ser resolvidos manualmente.
 
 
-Comandos para colaboração:
+**Comandos para colaboração:
 
 `git pull-request:` abre uma pull request para que outros colaboradores possam revisar e mesclar suas alterações.
 
