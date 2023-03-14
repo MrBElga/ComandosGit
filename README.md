@@ -13,7 +13,7 @@ __Comandos Básicos do Git:__
 `git pull:` baixa as alterações do repositório remoto para sua máquina local.
 
 
-**Comandos para gerenciar branches:
+__Comandos para gerenciar branches:__
 
 `git branch:` lista todas as branches locais.
 
@@ -24,7 +24,7 @@ __Comandos Básicos do Git:__
 `git merge [nome_da_branch]:` faz o merge de uma branch com a branch atual.
 
 
-**Comandos para gerenciar conflitos:
+__Comandos para gerenciar conflitos:__
 
 `git status:` mostra o status dos arquivos.
 
@@ -33,7 +33,7 @@ __Comandos Básicos do Git:__
 `git merge [nome_da_branch]:` tenta fazer o merge de uma branch, mas pode causar conflitos que precisam ser resolvidos manualmente.
 
 
-**Comandos para colaboração:
+__Comandos para colaboração:__
 
 `git pull-request:` abre uma pull request para que outros colaboradores possam revisar e mesclar suas alterações.
 
