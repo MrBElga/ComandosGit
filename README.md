@@ -6,7 +6,7 @@ git clone [url]: clona um repositório remoto para sua máquina local.
 
 git add [nome_do_arquivo]: adiciona um arquivo ao staging area.
 
-'git commit -m "mensagem de commit"': cria um novo commit com os arquivos no staging area e adiciona uma mensagem.
+`git commit -m "mensagem de commit"`: cria um novo commit com os arquivos no staging area e adiciona uma mensagem.
 
 git push: envia as alterações locais para o repositório remoto.
 
