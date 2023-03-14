@@ -1,6 +1,6 @@
 # ComandosGit
 
-**Comandos Básicos do Git:
+__Comandos Básicos do Git:__
 
 `git clone [url]:` clona um repositório remoto para sua máquina local.
 
