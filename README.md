@@ -1,42 +1,89 @@
-# ComandosGit
+## Configurando o usuário global para cada commit
+```
+git config --global user.name "Seu nome para exibição"
+```
+## Configurando o email global para cada commit
+```
+git config --global user.email "seu-email@email.com"
+```
+<hr />
+<br />
 
-__Comandos Básicos do Git:__
+## Incluir ou modificar todos arquivos do diretório:
+```
+git add .
+```
 
-`git clone [url]:` clona um repositório remoto para sua máquina local.
+## Fazer um commit com uma mensagem: 
+```
+git commit -m ""
+```
+### `O primeiro push de um repositório deve conter o nome do repositório e o branch`
+```
+git push -u origin master
+```
+### `Os demais pushes não precisam dessa informação`
+```
+git push
+```
 
-`git add [nome_do_arquivo]:` adiciona um arquivo ao staging area.
+<hr/>
+<br/>
 
-`git commit -m "mensagem de commit"`: cria um novo commit com os arquivos no staging area e adiciona uma mensagem.
+## Verificar os estados dos arquivos/diretórios:
+```
+git status
+```
+## Exibir histórico:
+```
+git log
+```
+## Excluir commit: 
+```
+git reset --hard HEAD~1
+```
 
-`git push:` envia as alterações locais para o repositório remoto.
+<hr/>
+<br/>
 
-`git pull:` baixa as alterações do repositório remoto para sua máquina local.
+## Exibir repositório remoto:
+```
+git remote -v
+```
+## Vincular um repositório local com um remoto:
+```
+git remote add origin (Link do repositorio)
+```
+## Exibir informações dos repositórios remotos:
+```
+git remote show origin
+```
+### Desvincular um respositório remoto:
+```
+git remote rm (nome do repositorio remoto)
+```
 
+<hr/>
+<br/>
 
-__Comandos para gerenciar branches:__
+### Buscar e baixar os conteúdo do repositório
+```
+git pull
+```
 
-`git branch:` lista todas as branches locais.
+### Busca as alterações, mas não aplica elas na branch atual
+```
+git fetch
+```
+<hr/>
+<br/>
 
-`git branch [nome_da_branch]:` cria uma nova branch.
+### Criar uma nova branch
+```
+git branch (Nome da branch)
+```
 
-`git checkout [nome_da_branch]:` muda para outra branch.
-
-`git merge [nome_da_branch]:` faz o merge de uma branch com a branch atual.
-
-
-__Comandos para gerenciar conflitos:__
-
-`git status:` mostra o status dos arquivos.
-
-`git diff:` mostra as diferenças entre as alterações locais e as alterações no repositório remoto.
-
-`git merge [nome_da_branch]:` tenta fazer o merge de uma branch, mas pode causar conflitos que precisam ser resolvidos manualmente.
-
-
-__Comandos para colaboração:__
-
-`git pull-request:` abre uma pull request para que outros colaboradores possam revisar e mesclar suas alterações.
-
-`git fork:` cria uma cópia de um repositório para sua própria conta do GitHub.
-
-`git clone [url_do_fork]:` clona uma cópia de um fork para sua máquina local.
+### Alterar para a nova branch ou uma já existente
+```
+git checkout (Nome da branch)
+```
